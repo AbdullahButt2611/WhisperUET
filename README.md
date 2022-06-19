@@ -1,12 +1,8 @@
-
-<div style = "text-align:center; align-items:center;">
-    <h1>
-    <img style="width:50px; height: 50px; vertical-align: middle;" src="images\logo.png" alt="Logo">
-    WhisperUET
-    </h1>
-</div>
-
----
+<p align="center">
+  <img width="300" height="250" src="images/logo.png" alt="Logo">
+    <br>
+    <h1 align="center">WhisperUET</h1>
+</p>
 
 
 
@@ -73,6 +69,16 @@ Following technologies were used for developing the project.
 - JavaScript
 
 
+# Improvements
+- [x] Wireframe
+- [ ] Frontend
+- [ ] DataBase Design
+- [ ] Backend
+- [ ] Integration
+- [ ] Testing
+- [ ] Launch
+
+
 # Authors
 The project is made possible with the collaboration and efforts of:
 
@@ -87,10 +93,10 @@ The project is made possible with the collaboration and efforts of:
 
 
 
-[1]: https://www.github.com/abutt2210 
-[2]: #authors
+[1]: https://www.github.com/AbdullahButt2611 
+[2]: https://www.github.com/Abdullah-Uppal
 [3]: https://www.github.com/AbdullahYaqub72
-[4]: #authors
+[4]: https://github.com/ahtisham774/
 [5]: https://www.github.com/AqibChattha
 [6]: https://www.github.com/Awais612
 [7]: https://www.github.com/mkhuzaima
