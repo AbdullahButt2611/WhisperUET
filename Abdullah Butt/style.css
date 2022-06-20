@@ -34,3 +34,94 @@
     font-weight: 700;
     color: #032032;
 }
+
+.Message, .ResendConfirmation{
+    margin-top: 1.3rem;
+    color: rgb(69,93,107);
+}
+
+.EmailMessage{
+    display: inline-block;
+}
+
+#ResendEmail{
+    text-decoration: none;
+    color: #0D97B1;
+}
+
+.EmailConfirmationForm{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    color: rgb(69,93,107);
+}
+
+.headingInput{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.EmailConfirmationForm input{
+    margin-top: 0.25rem;
+    border: 2px solid rgba(69,93,107,0.5);
+    color: rgb(69,93,107);
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.submit{
+    margin-top: 2rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FFB648;
+    cursor:pointer;
+    border: none;
+}
+
+.KnowPassword{
+    margin-top: 0.5rem;
+    color: rgb(69,93,107);
+    font-size: 13px;
+}
+
+.setLogin{
+    text-decoration: none;
+    color: #0D97B1;
+
+}
+
+.submit:hover{
+    background-color: #f8a01d;
+    transition: 0.7s ease-out background-color;
+}
+
+
+.LogoPlacer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.LogoPlacer img{
+    width: 35px;
+    margin: 8px;
+}
+
+.WhisperText{
+    color: #ff9a01;
+    margin: 8px 8px 8px 0 ;
+}
+
+.UETText{
+    font-weight: 700;
+    color: #0D97B1;
+}
+
+
