@@ -6,10 +6,10 @@
 
 
 
-# Introduction
+## Introduction
 A confession website for UET student operated only on the official gmail provided by the UET administration
 
-# Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Table of Contents](#table-of-contents)
 - [:fire:Features](#firefeatures)
@@ -24,40 +24,41 @@ A confession website for UET student operated only on the official gmail provide
   - [What is the purpose of this app?](#what-is-the-purpose-of-this-app)
 - [Request A feature?](#request-a-feature)
 - [Technology Stack](#technology-stack)
+- [Improvements](#improvements)
 - [Authors](#authors)
 - [:memo: License](#memo-license)
 
-# :fire:Features
+## :fire:Features
 
-## Demo
-
-
-# Installation Guide
-
-## Requirements
+### Demo
 
 
-# How to Use?
+## Installation Guide
+
+### Requirements
+
+
+## How to Use?
 Description of how can I use this app.
 
 
-# FAQ
+## FAQ
 
-## How can I use this application?
-
-
-## Is this app free?
-
-## I forgot my password. How can I reset it?
-
-## What is the purpose of this app?
+### How can I use this application?
 
 
-# Request A feature?
+### Is this app free?
+
+### I forgot my password. How can I reset it?
+
+### What is the purpose of this app?
+
+
+## Request A feature?
 If you want to request a feature or feel any kind of the bug in using the app, feel free to open the issue [here](https://github.com/AbdullahButt2611/WhisperUET).
 
 
-# Technology Stack
+## Technology Stack
 Following technologies were used for developing the project.
 - ASP .NET
 - Visual Studio 2019 and 2022
@@ -69,7 +70,7 @@ Following technologies were used for developing the project.
 - JavaScript
 
 
-# Improvements
+## Improvements
 - [x] Wireframe
 - [ ] Frontend
 - [ ] DataBase Design
@@ -79,7 +80,7 @@ Following technologies were used for developing the project.
 - [ ] Launch
 
 
-# Authors
+## Authors
 The project is made possible with the collaboration and efforts of:
 
 - [Abdullah Butt][1]
@@ -102,7 +103,7 @@ The project is made possible with the collaboration and efforts of:
 [7]: https://www.github.com/mkhuzaima
 [8]: #authors
 
-# :memo: License
+## :memo: License
 This project is licensed by MIT License.
 
 Made with :heart: using ASP .NET technologies. 
