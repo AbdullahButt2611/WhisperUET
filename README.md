@@ -101,7 +101,7 @@ The project is made possible with the collaboration and efforts of:
 [5]: https://www.github.com/AqibChattha
 [6]: https://www.github.com/Awais612
 [7]: https://www.github.com/mkhuzaima
-[8]: #authors
+[8]: https://www.github.com/MZT-Venom
 
 ## :memo: License
 This project is licensed by MIT License.
