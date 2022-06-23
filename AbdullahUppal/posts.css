@@ -33,6 +33,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 .layer {
     display: flex;
     flex-direction: row;
@@ -54,8 +55,37 @@ body {
     border: 1px solid #dbdbdb88;
 }
 
+.images_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: flex-start;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
 
+.image {
+    border: 1px solid #dbdbdb;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+    transition-duration: 50ms;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px #dbdbdb;
+}
 
+.image:hover {
+    box-shadow: 0px 0px 10px #918282;
+    transform: translateY(-5px);
+}
 
 
 
