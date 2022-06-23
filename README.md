@@ -1,6 +1,5 @@
 <p align="center">
-  <img width="300" height="250" src="images/logo.png" alt="Logo">
-    <br>
+  <img width="107" height="144" src="images/logo.png" alt="Logo">
     <h1 align="center">WhisperUET</h1>
 </p>
 
