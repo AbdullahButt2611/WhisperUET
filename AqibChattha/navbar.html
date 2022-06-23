@@ -5,35 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../AqibChattha/styles.css">
-    <title>Navbar - Whisper UET</title>
+    <title>Awesome CSS Responsive Navigation menus </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav class="main-div">
+    <header>
+        <input type="checkbox" name="" id="chk1">
         <div class="logo">
-            <h2 id="nav-logo-text">
-                <span style="color: #db6b32;">Whisper </span>
-                <span style="color: #2b8285;">UET</span>
-            </h2>
+            <img src="../images/logo.png" class="Logo-img" alt="">
+            <span style="color: #ff9a01; font-family: 'Poppins', sans-serif; font-size: 22px">Whisper</span>
+            <span style="color: #2b8285; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 22px;">UET</span>
         </div>
-        <div class="menu-link">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" name="search" id="srch" placeholder="Search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
         </div>
-    </nav>
+        <ul>
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-bell"></i> Notifications</a></li>
+            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+            <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+    </header>
 </body>
 
 </html>

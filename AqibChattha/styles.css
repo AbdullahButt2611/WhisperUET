@@ -1,54 +1,126 @@
-a {
-    text-decoration: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background: url(1.jpg);
+    background-color: #6a9393;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+header{
+    width:100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 7px #000;
+    background: rgb(148 212 224 / 100%);
+}
+#chk1{
+    display: none;
+     
+     
+}
+i{
+    color: #fff;
+    cursor: pointer;
 }
 
-h2 {
-    margin: auto;
+header .logo{
+    flex: 1;     
+    margin-left: 10px;
+}
+
+header .Logo-img{
+    width: 23px;
+    height: 29px;
+    vertical-align: bottom;
+}
+
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width:100%;
+    height: 26px;
+    border: none;
+    outline: none;
+    background:#f2f2f2;
+    border-radius: 30px;
+    color:gray;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 40px;
     text-align: center;
+     
 }
-
-li {
+ 
+.search-box button{
+    cursor: pointer;
+    width:26px;
+    height: 24px;
+    border-radius: 30px;
+    border:none;
+    position: absolute;
+    top:1px;
+    right: 1px;
+    transform: scale(0.9);
+    background: rgb(57 176 205);
+    color: #fff;
+}
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
     list-style: none;
 }
-
-.main-div {
-    width: 100%;
-    height: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 3fr 4fr 4fr 4fr;
-    grid-template-rows: 4rem;
-    background-color: #83C7CE;
-    position: sticky;
-    top: 0;
+header ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 8px;
 }
-
-.logo {
-    display: grid;
-    grid-column: 2/3;
-    justify-content: start;
-    align-items: center;
-    color: white;
+header ul li a:hover{
+    border-bottom: 2px solid cadetblue;
 }
-
-.menu-link {
-    grid-column: 3/5;
+header .menu{
+    font-size: 2.5em;
+    display: none;
 }
-
-.menu-link ul {
-    height: 3rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    margin-top: 1rem;
-}
-
-.menu-link ul li {
-    font-size: 1.2rem;
-}
-
-.menu-link ul li a {
-    text-transform: capitalize;
-    color: white;
-    transition: 0.5s;
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+    header ul{
+        position: fixed;
+        top:46px;
+        right: -100%;
+        background: rgba(0,0,0,0.5);
+        height: calc(100vh - 46px);
+        width:50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.5s linear;
+    }
+     
+    header .menu{
+        display: block;
+        width:100px;
+        text-align: center;
+    }
+    #chk1:checked ~ ul{
+        right: 0;
+        
+    }
+  
 }
