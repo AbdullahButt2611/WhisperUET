@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+
+/*                                                  For Recovery Page */
 .RecoverPassContainer{
     height: 100vh;
     width: 100%;
@@ -124,4 +126,139 @@
     color: #0D97B1;
 }
 
+/*                                           For Login Page                 */
 
+.LoginContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftLogin{
+    width: 80%;
+    display: flex;
+    padding: 2rem 12rem;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.rightLogin{
+    width: 40%;
+    background-color: #94D4E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightLogin img{
+    
+    width: 200%;
+    position: relative;
+    right: 40%;
+}
+
+.loginLogo{
+    justify-content: left;
+    font-size: 3rem;
+}
+
+.loginLogo img{
+    width: 40px;
+}
+
+.loginContent{
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginHeading{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #455D6B;
+}
+
+.loginHeading img{
+    width: 5%;
+    margin-right: 10px;
+}
+
+.LoginForm input{
+    width: 55%;
+}
+
+.LoginForm .submit{
+    width: 55%;
+}
+
+.passwordText{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordText a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #0D97B1;
+    margin-top: 10px;
+}
+
+
+/*                                           For Sign Up Page                 */
+.SignUpContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.rightSign{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSign img{
+    width: 80%;
+}
+
+
+.leftSign{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 8rem;
+    background-color: #94D4E0;
+}
+
+.SignHeading img{
+    width: 10%;
+}
+
+.PasswordConfirmation{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    height: 3%;
+}
+
+.PasswordConfirmation input{
+    width: 20px;
+    height: 20px;
+}
+
+.SignForm > p{
+    margin-top: 1.5rem;
+}
+
+.PasswordConfirmation p{
+    margin-left: 5px;
+    margin-top: 4px;
+}
