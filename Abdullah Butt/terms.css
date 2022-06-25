@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+*::before,
+*::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.TermandConditionsBody{
+    height: 100vh;
+    background: #161616;
+    position: fixed;
+    z-index: 1;
+}
+
+.TermsContainer{
+    position: relative;
+    height: 100vh;
+    width: 96%;
+    display: grid;
+    place-items: center;
+    color:white;
+}
+
+
+/* Code to make the circle effect */
+.TermsContainer::before{
+    top: -100px;
+    left: 50px;
+    background: linear-gradient(#f0f,#f00);
+    clip-path: circle(20% at 25% 30%);
+}
+
+.TermsContainer::after{
+    top: 100px;
+    left: 50px;
+    background: linear-gradient(#e91e63,#2196f3);
+    clip-path: circle(20% at 70% 65%);
+}
+
+.TermsContainer .termscard-wrapper{
+    position: relative;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    z-index: 1;
+    width: 35%;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);                                             /* Adds a blur effect behind element  */
+    overflow: hidden;
+    padding: 4rem 4rem;
+    height: 90%;
+}
+
+.termscard-wrapper h2{
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.horizontalline{
+    margin: 1rem 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255,255,255,0.50);
+
+}
+
+
+.TermsBtn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TermsBtn button{
+    margin: 2rem 0;
+    width: 45%;
+    height: 50%;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.TermCancel{
+    background-color: #F7C375;
+}
+
+.TermAccept{
+    background-color: #0D97B1;
+}
+
+.TermCancel:hover{
+    background-color: #FFB648;
+}
+
+.TermAccept:hover{
+    background-color: #007C94;
+}
+
+.scrollDiv{
+    height: 70%;
+    overflow: auto;
+    margin:5px;
+}
+
+.scrollDiv::-webkit-scrollbar{
+    width: 7px;
+}
+
+.scrollDiv::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 2.5px 2px rgba(233, 233, 233, 0.5);
+    height: 14rem;
+}
+
+.scrollDiv::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        45deg,
+        #753f01,
+        #eefb00
+    );
+    border-radius: 3px;
+}
+
