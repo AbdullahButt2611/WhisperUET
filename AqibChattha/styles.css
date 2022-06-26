@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
 }
 body{
-    background: url(1.jpg);
-    background-color: #6a9393;
+    /* background: url(1.jpg); */
+    background-color: #ECEEEA;
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
+
+/* ----------------------Navbar styles---------------------- */
 header{
     width:100%;
     height: 46px;
@@ -27,7 +28,7 @@ header{
      
      
 }
-i{
+header i{
     color: #fff;
     cursor: pointer;
 }
@@ -41,7 +42,7 @@ header .nav-logo{
 
 header #nav-Logo-img{
     width: 20px;
-    height: 29px;
+    height: 30px;
     vertical-align: bottom;
 }
 
@@ -84,6 +85,7 @@ header ul {
 }
 header ul li{
     list-style: none;
+    font-family: monospace;
 }
 header ul li a{
     text-decoration: none;
@@ -106,6 +108,258 @@ header .nav-logo-text{
     font-size: 22px;
     margin-left: 3px;
 }
+
+
+/* ----------------------Container styles---------------------- */
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 70px 2%;
+    font-family: 'poppins',sans-serif;
+}
+
+
+/* ----------------------Right sidebar styles---------------------- */
+
+.right-sidebar{
+    background: #fff;
+    padding: 16px;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+.imp-links a, .suggestion-links a{
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+     color: #626262;
+     width: fit-content;
+     font-size: 14px;
+}
+.imp-links a:last-child{
+    color: #1876f2;
+}
+.imp-links a img{
+    width: 25px;
+    margin-right: 15px;
+}
+.imp-links{
+    border-bottom: 1px solid #ccc;
+}
+.suggestion-links a img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sidebar-title{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.sidebar-title h1{
+    font-weight: 600;
+    font-size: 16px;
+}
+.sidebar-title a{
+    text-decoration: none;
+    color: #0D97B1;
+    font-size: 12px;
+}
+
+/* ----------------------Main content styles---------------------- */
+
+.main-content{
+    flex-basis: 55%;
+    margin-right: 10%;
+
+}
+
+/* ----------------------Stories styles---------------------- */
+
+.story-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.story{
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-size: cover;
+    border-radius: 10px;
+}
+.story img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    border: 5px solid #0D97B1;
+}
+.story p{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.story1{
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(../images/status-1.png);
+}
+.story2{
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(../images/status-2.png);
+}
+.story3{
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(../images/status-3.png);
+}
+.story4{
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(../images/status-4.png);
+}
+.story5{
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(../images/status-5.png  );
+}
+.story.story1 img{
+    top: unset;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%);
+    border: 0;
+    width: 35px;
+}
+
+/* ----------------------Post styles---------------------- */
+
+.write-post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+.user-profile img{
+width: 45px;
+border-radius: 50%;
+margin-right: 10px;
+}
+.user-profile p{
+    margin-bottom: -5px;
+    font-size: 15px;
+    margin: auto;
+    font-weight: 500;
+    color: #626262;
+}
+.user-profile small{
+    font-size: 12px;
+}
+.post-input-container{
+    padding: auto;
+    padding-top: 20px;
+}
+.post-input-container textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+    font-family: 'poppins', sans-serif; 
+}
+.add-posts-links{
+    display: flex;
+    margin-top: 10px;
+}
+.add-posts-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+.add-posts-links a img{
+    width: 20px;
+    margin-right: 10px;
+}
+.post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 20px 10px 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+.post-container span{
+    font-size: 11px;
+    color: #9a9a9a;
+}
+.post-text{
+    color: #464646;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.post-img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.post-row{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity-icons div img{
+    width: 18px;
+    margin-right: 10px;
+}
+.activity-icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.post-profile-icon{
+    align-items: center;
+}
+.post-profile-icon img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.post-row a{
+    color: #9a9a9a;
+}
+.load-more-button{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+
+/* ----------------------Footer styles---------------------- */
+
+.footer{
+    margin-left: 29%;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 13px;
+}
+
+/* ----------------------Mediia queries for responsiveness---------------------- */
+
 @media(max-width:1000px){
     .nav-search-box button{
         position: absolute;
