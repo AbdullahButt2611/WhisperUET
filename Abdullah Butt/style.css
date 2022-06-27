@@ -264,3 +264,99 @@
 }
 
 
+@media screen and (max-width: 1530px) {
+    .RecoveryForm{
+        padding: 6rem 4.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+
+    .LogoPlacer {
+        margin-top: 1em;
+    }
+
+    .RecoveryForm{
+        width: 45%;
+        padding-top: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .RecoveryForm{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .RecoveryForm{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .RecoveryForm{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+    .RecoveryForm{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .RecoveryForm{
+        padding-top: 3rem;
+        width: 95%;
+    }
+
+    .LogoPlacer img {
+        width: 25px;
+    }
+
+    .LogoPlacer {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .RecoveryForm h2 {
+        font-size: 1.2em;
+    }
+
+    .ResendConfirmation{
+        margin-top: 0.3rem;
+    }
+
+    .Message, .ResendConfirmation {
+        font-size: 0.85em;
+    }
+
+    .RecoveryForm {
+        padding: 6rem 3rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    
+
+    .RecoveryForm {
+        padding: 5rem 3rem;
+    }
+
+    .RecoverPassContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
